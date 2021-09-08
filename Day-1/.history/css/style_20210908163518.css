@@ -1,0 +1,11 @@
+:root{
+    --primary:#3DCFD3;
+    --dark: #161616;
+    --pure:#ffffff;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+
+header{
+    background-color: var(--dark);
+}

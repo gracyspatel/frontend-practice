@@ -1,0 +1,31 @@
+@import 'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark: #161616;
+    --pure:#ffffff;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+body{
+    font-family:'Poppins',sans-serif;
+}
+header{
+    background-color: var(--dark);
+}
+.conteiner{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+    height:800px;
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration:none;
+}
