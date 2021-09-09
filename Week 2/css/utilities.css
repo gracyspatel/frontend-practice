@@ -1,0 +1,27 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.btn-primary{
+    border:none;
+    padding: 10px 10px;
+    width:150px;
+}
+.text-center{
+    text-align: center;
+}
+.align-center{
+    justify-content:center;
+    align-items: center;
+}

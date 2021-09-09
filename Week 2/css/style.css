@@ -1,0 +1,133 @@
+@import './utilities.css';
+@import './gilroy-bold-cufonfonts-webfont/Gilroy-Bold.woff';
+@import './gilroy-bold-cufonfonts-webfont/Gilroy-Heavy.woff';
+@import './gilroy-bold-cufonfonts-webfont/Gilroy-Light.woff';
+@import './gilroy-bold-cufonfonts-webfont/Gilroy-Medium.woff';
+@import './gilroy-bold-cufonfonts-webfont/Gilroy-Regular.woff';
+@import './gilroy-bold-cufonfonts-webfont/style.css';
+
+
+:root{
+    --primary:#49AD09;
+    --dark:#313131;
+    --dark-medium:#514040;
+    --pure:#FFFFFF;
+    --light:#F2F2F2;
+    --grey2:#A1A89D;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    -webkit-font-smoothing: antialiased;
+}
+body{
+    font-family:'Gilroy-Bold.woff',Times New Roman, Times, serif;
+}
+header{
+    background-color: var(--light);
+}
+.container{
+    margin: 0 auto;
+    max-width: 1450px;
+    padding: 0 15px;
+    /* background-color:#eee; */
+    height: 10vh;
+}
+header nav {
+    padding:2rem 0;
+}
+
+header nav .left a{
+    color:var(--dark);
+    text-decoration:none;
+    text-transform:uppercase;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+header nav .left {
+    font-family:'Gilroy-Bold.woff',Times New Roman, Times, serif;
+    font-size: 22px;
+    font-weight:800;
+    line-height: 21px; 
+    color:var(--dark);
+}
+
+header nav .right a{
+    margin-left:2rem;
+    text-decoration:none;
+    font-size:17.5px;
+    font-weight:500;
+    color: var(--dark);
+}
+header nav .right button{
+    margin-left:2rem;
+    text-decoration:none;
+    font-size:17px;
+    font-weight:200;
+    font-family:'Gilroy-Bold.woff',Times New Roman, Times, serif;
+}
+
+.btn{
+    background:var(--primary);
+    color:var(--pure);
+    border-radius: 5px;
+    line-height: 21px;
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+}
+
+.container2{
+    margin-top:4rem;
+    padding: 15px;
+
+    width:100%;
+    height:80vh;
+}
+
+.container2 .header-main .img1 img{
+    width: 23vw;
+    height: 60vh;
+}
+
+.container2 .header-main .img1-text h1{
+    font-family: sans-serif;
+    color: var(--dark);
+    width: 600px;
+    font-weight:800;
+    font-size:4.2rem;
+    line-height:1;
+    margin-bottom:50px;
+}
+
+.container2 .header-main .img1-text span{
+    color: var(--primary);
+}
+.container2 .header-main .img1-text p{
+    font-family: sans-serif;
+    width: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size:1.2rem;
+    line-height:1.4;
+    margin-bottom:50px;
+}
+
+.container2 .header-main .img1-text {
+    margin: 10vh;
+}
+
+.container2 .header-main .img1-text .container-btn-link button{
+    margin-right: 40px;
+}
+.container2 .header-main .img1-text .container-btn-link a{
+    color: var(--dark-medium);
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: var(--dark-medium) 1px solid;
+    margin-right: 40px;
+}
