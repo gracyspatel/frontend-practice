@@ -1,0 +1,34 @@
+@import './utilities.css';
+@import './gilroy-bold-cufonfonts-webfont/Gilroy-Bold.woff';
+@import './gilroy-bold-cufonfonts-webfont/Gilroy-Heavy.woff';
+@import './gilroy-bold-cufonfonts-webfont/Gilroy-Light.woff';
+@import './gilroy-bold-cufonfonts-webfont/Gilroy-Medium.woff';
+@import './gilroy-bold-cufonfonts-webfont/Gilroy-Regular.woff';
+@import './gilroy-bold-cufonfonts-webfont/style.css';
+
+
+:root{
+    --primary:#49AD09;
+    --dark:#313131;
+    --dark-medium:#514040;
+    --pure:#FFFFFF;
+    --light:#F2F2F2;
+    --grey2:#A1A89D;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    -webkit-font-smoothing: antialiased;
+}
+body{
+    font-family:'Gilroy-Bold.woff',Times New Roman, Times, serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 0 15px;
+    background-color:#eee;
+    height: 6vh;
+}
