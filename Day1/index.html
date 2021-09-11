@@ -6,37 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kateriya</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div>
+    <header class="flex">
+        <div  class="container-main flex-1">
             <nav>
                 <div class="left">
                     <!-- Image -->
-                    <div class="brand-logo">
+                    <div class="brand-logo flex align-items-end">
                         <img src="./assets/logo.svg" alt="logo"/>
-                        <h3>KATERIYA</h3>
+                        <h3 class="align-items-end">KATERIYA</h3>
                     </div>
                 </div>
             </nav>
         </div>
-        <div>
+        <div class="container-main2 flex-1">
             <nav>
-                <div class="right">
-                    <a href="#">
-                        HOME
-                    </a>
-                    <a href="#">
-                        CHECK IN
-                    </a>
-                    <a href="#">
-                        SUPPORT
-                    </a>
-                    <a href="#">
-                        LOGIN
-                    </a>
+                <div class="right flex justify-between">
+                    <div class="right-nav">
+                        <a href="#">
+                            HOME
+                        </a>
+                        <a href="#">
+                            CHECK IN
+                        </a>
+                        <a href="#">
+                            BLOG
+                        </a>
+                        <a href="#">
+                            SUPPORT
+                        </a>
+                    </div>
+                    <div class="left-nav">
+                        <a href="#">
+                            LOGIN
+                        </a>
+                    </div>
                 </div>
             </nav>
+            <main class="main-elem">
+                <h1>The best place to rest like <span class="home-text">home</span>.</h1>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <button class="btn btn-primary">Get Started</button>
+            </main>
         </div>
     </header>
 </body>
