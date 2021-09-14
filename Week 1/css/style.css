@@ -5,6 +5,7 @@
     --pure:#ffffff;
     --ternary:#898989;
     --light:#F2F2F2;
+    --secondary:#070606;
 }
 *{
     padding:0;
@@ -139,4 +140,70 @@ section .cont2 .social a img{
     width: 100%;
     height: 100%;
     padding: 0.5rem;
+}
+
+section.services{
+    background: var(--light);
+}
+.section-heading{
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+
+.section-heading + p{
+    color: var(--ternary);
+    font-family: 'Lato',sans-serif;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.section-heading span{
+    color: var(--primary);
+}
+
+section.services .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+}
+
+section.services .card-wrapper .card{
+    position: relative;
+    background: var(--pure);
+    padding: 3rem 2rem;
+    padding-top: 8rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+section.services .card-wrapper .card img{
+    position: absolute;
+    top:-3.5rem;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+section.services .card-wrapper .card h2{
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-bottom: 0.7rem;
+}
+
+section.services .card-wrapper .card p{
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+    line-height: 1.6rem;
+    text-align: justify;
+}
+
+section.services .card-wrapper .card:hover{
+    background: var(--dark);
+}
+
+
+section.services .card-wrapper .card:hover h2,section.services .card-wrapper .card:hover p{
+    color: var(--pure);
 }

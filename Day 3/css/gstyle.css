@@ -1,0 +1,10 @@
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: space-between;
+}
+.justify-around
+{
+    justify-content: space-around;
+}
