@@ -1,0 +1,45 @@
+@import 'gstyles.css';
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --dark:#233348;
+    --extra-dark:#000000;
+    --pure:#ffffff;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header nav{
+    margin:230px;
+    margin-top: 40px;
+}
+
+header nav div .logo-name{
+    margin-left:15px;
+    font-family: 'Mulish', sans-serif;
+    color: var(--dark);
+}
+header nav .right ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+header nav .right ul li{
+    margin-right: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+header nav .right ul .active{
+    margin-right: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: var(--extra-dark);
+    font-weight: 800;
+    font-size: 18px;
+}
