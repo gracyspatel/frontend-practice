@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1140px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;;
+}
+nav .logo{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+nav .logo span{
+    color: rgb(35, 101, 89);
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(35, 101, 89);
+    margin-left: 20px;
+}
+main{
+    margin: 20px 0px;
+    padding: 20px;
+}
+main .stack .card{
+    border-radius: 6px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+main .stack .card .card__about{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    opacity: 80%;
+    margin-bottom: 30px;
+}
+
+main .stack .card .card__title{
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+main .stack .card .card__content{
+    line-height: 1.4rem;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+main .stack .card .card__end{
+    color: rgb(35, 101, 89);
+    font-size: 16px;
+    font-weight: 800;
+}
