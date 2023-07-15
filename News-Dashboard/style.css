@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .brand .logo a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav .nav__items a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
